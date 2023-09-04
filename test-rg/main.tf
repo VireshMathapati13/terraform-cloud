@@ -23,7 +23,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test-rg1" {
-  name     = "viresh-test-rg1-tfc"
+  name     = "viresh-test-rg1-tfc2"
   location = "eastus"
 
 }
