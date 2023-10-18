@@ -1,5 +1,5 @@
 # We strongly recommend using the required_providers block to set the
-# Azure Provider source and version being used..
+# Azure Provider source and version being used....
 terraform {
   required_providers {
     azurerm = {
@@ -23,7 +23,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test-rg1" {
-  name     = "viresh-test-rg1-tfc2"
-  location = "eastus"
+  name     = "viresh-test-rg1"
+  location = "eastus2"
 
 }
